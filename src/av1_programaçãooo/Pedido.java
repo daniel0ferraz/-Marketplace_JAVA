@@ -14,7 +14,7 @@ public class Pedido {
     public int Quant_Prod;
     public String Cod_Pedido;
     public String Forma_Pagamento;
-    public Float Valor_Pedido;
+    public Double Valor_Pedido;
     protected String End_Entrega;
     
     
@@ -30,7 +30,7 @@ public class Pedido {
       this.Forma_Pagamento = Forma_Pagamento;
     }
     
-    public void setValor_Pedido(Float Valor_Pedido) {
+    public void setValor_Pedido(Double Valor_Pedido) {
         this.Valor_Pedido = Valor_Pedido;
     }
 
@@ -50,7 +50,7 @@ public class Pedido {
         return Forma_Pagamento;
     }
     
-    public Float getValor_Pedido(){
+    public Double getValor_Pedido(){
         return Valor_Pedido;
     }
     

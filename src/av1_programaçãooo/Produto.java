@@ -13,7 +13,7 @@ public class Produto {
 
   public String Nome;
   public String Cod_Prod;
-  public Float Valor_Produto;
+  public Double Valor_Produto;
   public String Desc;
   public int Estoque;
 
@@ -25,7 +25,7 @@ public class Produto {
     this.Cod_Prod = Cod_Prod;
   }
 
-  public void setValor_Produto(Float Valor_Produto) {
+  public void setValor_Produto(Double Valor_Produto) {
     this.Cod_Prod = Cod_Prod;
   }
   
@@ -45,7 +45,7 @@ public class Produto {
     return Cod_Prod;
   }
 
-  public Float getValor_Produto() {
+  public Double getValor_Produto() {
     return Valor_Produto;
   }
 
